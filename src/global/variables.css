@@ -1,0 +1,18 @@
+:root {
+  --gd-primary-color: #224E61;
+  --gd-primary-color-rgb: 34, 78, 97;
+  --gd-primary-color-contrast: #ffffff;
+
+  --gd-secondary-color: #FCA311;
+  --gd-secondary-color-rgb: 252, 163, 17;
+
+  --gd-tertiary-color: #E5E5E5;
+
+  --gd-color-dark: #050505;
+  --gd-color-medium: #606060;
+  --gd-color-light: #999999;
+
+  --gd-color-error: #d4351c;
+
+  font-family: sans-serif;
+}

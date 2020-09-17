@@ -1,0 +1,49 @@
+:host {
+  display: inline-block;
+
+  --button-background: var(--gd-primary-color);
+  --button-color: var(--gd-primary-color-contrast);
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  height: 2.75em;
+  padding: 8px 3ex;
+  border: 0;
+  border-radius: 1.375em;
+  background: var(--gd-primary-color);
+  font-family: sans-serif;
+  font-size: 16px;
+  color: var(--gd-primary-color-contrast);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin: 10px 5px;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+button:focus {
+  outline: none;
+  /* box-shadow: 0 0 0 5px rgba(var(--gd-primary-color-rgb), 0.2);*/
+}
+
+button:active {
+}
+
+button.gd-button--outlined {
+  border: 2px solid var(--gd-primary-color);
+  background: rgba(255, 255, 255, 0);
+  color: var(--gd-primary-color);
+}
+
+button.gd-button--small {
+  font-size: 13px;
+}
+
+button.gd-button--large {
+  font-size: 18px;
+}
